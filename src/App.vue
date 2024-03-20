@@ -36,13 +36,17 @@ export default {
 
 <style>
 h1{
+  width: 25%;
+  margin: auto;
   background-color: black;
   color: white;
   text-align: center;
+  margin-bottom: 1rem;
 }
 main{
   text-align: center;
   width: 25%;
+  
   margin: auto
 }
 /* body{
