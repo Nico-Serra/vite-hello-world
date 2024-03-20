@@ -1,10 +1,15 @@
 <script>
 //import HelloWorld from './components/HelloWorld.vue'
+import lorem from './components/lorem.vue'
+
 export default {
   data() {
     return {
       message: 'Hello World',
     }
+  },
+  components: {
+    lorem
   }
 }
 </script>
@@ -23,14 +28,22 @@ export default {
   <header>
     <h1>{{ message }}</h1>
   </header>
-  <main></main>
+  <main>
+    <lorem/>
+  </main>
   <footer></footer>
 </template>
 
 <style>
 h1{
   background-color: black;
-  color: white
+  color: white;
+  text-align: center;
+}
+main{
+  text-align: center;
+  width: 25%;
+  margin: auto
 }
 /* body{
   background-color: black;
